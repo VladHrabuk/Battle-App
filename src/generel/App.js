@@ -19,6 +19,10 @@ const router = createBrowserRouter([
         element: <Popular />,
       },
       {
+        path: "/popular/:language",
+        element: <Popular />,
+      },
+      {
         path: "/battle",
         element: <Battle />,
       },
